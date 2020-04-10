@@ -1,0 +1,29 @@
+{
+  "homepage": "http://KSaurav2.github.io/react-styleguidist-components-library",
+  "name": "react-styleguidist-components-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "styleguidist server",
+    "build": "styleguidist build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d styleguide"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.1",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "babel-loader": "^8.1.0",
+    "gh-pages": "^2.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-styleguidist": "^11.0.4",
+    "webpack": "^4.42.0"
+  }
+}
